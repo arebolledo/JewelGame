@@ -8,7 +8,7 @@
 
     function addClass(el, clsName) {
         if (!hasClass(el, clsName)) {
-            el.className += " " = clsName;
+            el.className += " " + clsName;
         }
     }
 

@@ -57,12 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\LICENSE.txt" />
     <Content Include="Index.html" />
     <Content Include="Scripts\dom.js" />
     <Content Include="Scripts\game.js" />
     <Content Include="Scripts\loader.js" />
     <Content Include="Scripts\modernizr.custom.13515.js" />
     <Content Include="Scripts\sizzle.js" />
+    <Content Include="Styles\fontfaces.css" />
     <Content Include="Styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -70,6 +72,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\geo.ttf" />
+    <Content Include="fonts\geo.woff" />
+    <Content Include="fonts\slackey.ttf" />
+    <Content Include="fonts\slackey.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
