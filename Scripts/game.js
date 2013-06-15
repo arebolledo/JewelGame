@@ -15,6 +15,7 @@
     function setup() {
         // disable native touchmove behavior to prevent overscroll
         dom.bind(document, "touchmove", function (event) {
+            alert("Touch move event fired!");
             event.preventDefault();
         });
     }
