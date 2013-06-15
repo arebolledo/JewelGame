@@ -7,8 +7,9 @@
         var activeScreen = $("#game .screen.active")[0],
             screen = $("#" + screenId)[0];
         if (activeScreen) {
-            dom.removeClass(screen, "active");
+            dom.removeClass(activeScreen, "active");
         }
+        jewel.screens[screenId].run();
         dom.addClass(screen, "active");
     }
     // expose public methods

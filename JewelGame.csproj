@@ -62,7 +62,9 @@
     <Content Include="Scripts\dom.js" />
     <Content Include="Scripts\game.js" />
     <Content Include="Scripts\loader.js" />
+    <Content Include="Styles\mobile.css" />
     <Content Include="Scripts\modernizr.custom.13515.js" />
+    <Content Include="Scripts\screen.main-menu.js" />
     <Content Include="Scripts\sizzle.js" />
     <Content Include="Styles\fontfaces.css" />
     <Content Include="Styles\main.css" />
@@ -76,6 +78,7 @@
     <Content Include="fonts\geo.woff" />
     <Content Include="fonts\slackey.ttf" />
     <Content Include="fonts\slackey.woff" />
+    <Content Include="Scripts\screen.splash.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
