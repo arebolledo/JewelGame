@@ -12,8 +12,15 @@
         jewel.screens[screenId].run();
         dom.addClass(screen, "active");
     }
+    function setup() {
+        // disable native touchmove behavior to prevent overscroll
+        dom.bind(document, "touchmove", function (event) {
+            event.preventDefault();
+        });
+    }
     // expose public methods
     return {
-        showScreen: showScreen
+        showScreen: showScreen,
+        setup: setup
     };
 })();

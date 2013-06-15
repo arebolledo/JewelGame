@@ -58,10 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\LICENSE.txt" />
+    <Content Include="images\install-icon.png" />
     <Content Include="Index.html" />
     <Content Include="Scripts\dom.js" />
     <Content Include="Scripts\game.js" />
     <Content Include="Scripts\loader.js" />
+    <Content Include="Scripts\screen.splash-install.js" />
     <Content Include="Styles\mobile.css" />
     <Content Include="Scripts\modernizr.custom.13515.js" />
     <Content Include="Scripts\screen.main-menu.js" />

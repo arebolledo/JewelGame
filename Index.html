@@ -6,12 +6,13 @@
     <script src="Scripts/loader.js"></script>
     <link href="Styles/fontfaces.css" rel="stylesheet" />
     <link href="Styles/main.css" rel="stylesheet" />
-    <link rel="stylesheet" href="Styles/mobile.css" 
+    <link rel="stylesheet" href="Styles/mobile.css"
         media="screen and (max-device-width: 768px)
         and (orientation: portrait),
         screen and (max-device-width: 1024px)
         and (orientation: landscape)" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 </head>
 <body>
     <div id="game">
@@ -20,6 +21,14 @@
                 <br />
                 Games</h1>
             <span>Click to continue</span>
+        </div>
+        <div class="screen" id="install-screen">
+            <h1 class="logo">Jewel
+                <br />
+                Games</h1>
+            <span>Click the <img src="images/install-icon.png" alt="Install icon" />
+                button to install the game to your home screen.
+            </span>
         </div>
         <div class="screen" id="game-screen"></div>
         <div class="screen" id="high-scores"></div>
