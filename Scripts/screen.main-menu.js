@@ -4,8 +4,7 @@
         firstRun = true;
     function setup() {
         dom.bind("#main-menu ul.menu", "click", function (e) {
-            // Triple === ?
-            if (e.target.nodeName.toLowerCase() == "button") {
+            if (e.target.nodeName.toLowerCase() === "button") {
                 var action = e.target.getAttribute("name");
                 game.showScreen(action);
             }

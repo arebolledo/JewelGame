@@ -60,6 +60,7 @@
     <Content Include="fonts\LICENSE.txt" />
     <Content Include="images\install-icon.png" />
     <Content Include="Index.html" />
+    <Content Include="Scripts\board.js" />
     <Content Include="Scripts\dom.js" />
     <Content Include="Scripts\game.js" />
     <Content Include="Scripts\loader.js" />

@@ -1,5 +1,13 @@
-﻿var jewel = {
-    screens: {}
+﻿// TODO: http://channel9.msdn.com/events/BUILD/BUILD2011/SAC-807T
+
+var jewel = {
+    screens: {},
+    settings: {
+        rows: 8,
+        cols: 8,
+        baseScore: 100,
+        numJewelTypes: 7
+    }
 };
 // wait until main doc is loaded
 window.addEventListener("load", function () {
@@ -13,7 +21,8 @@ window.addEventListener("load", function () {
             load: [
                 "scripts/sizzle.js",
                 "scripts/dom.js",
-                "scripts/game.js"
+                "scripts/game.js",
+                "scripts/board.js"
             ]
         }, {
             test: Modernizr.standalone,
